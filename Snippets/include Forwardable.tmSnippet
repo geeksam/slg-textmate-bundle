@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>extend Forwardable
+del$0</string>
+	<key>name</key>
+	<string>extend Forwardable</string>
+	<key>scope</key>
+	<string>source.ruby</string>
+	<key>tabTrigger</key>
+	<string>fwd</string>
+	<key>uuid</key>
+	<string>701F9BAF-A1D8-49B8-89A0-7B4E9772AC55</string>
+</dict>
+</plist>

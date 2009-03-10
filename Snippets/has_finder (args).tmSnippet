@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>has_finder  :${1:finder_name},
+            lambda { |${2:*args}|
+              { :conditions =&gt; [$3] }
+            }</string>
+	<key>name</key>
+	<string>has_finder (args)</string>
+	<key>scope</key>
+	<string>source.ruby</string>
+	<key>tabTrigger</key>
+	<string>hf</string>
+	<key>uuid</key>
+	<string>8CDB9DCF-8E0D-4391-8837-8F4D9A07BD87</string>
+</dict>
+</plist>

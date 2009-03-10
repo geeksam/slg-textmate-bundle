@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;tr&gt;
+  &lt;th width="30%"&gt;&lt;label for="$2_$3"&gt;$3&lt;/label&gt;&lt;/th&gt;
+  &lt;td&gt;&lt;%= ${1:text_field} :${2:object}, :${3:method} %&gt;&lt;/td&gt;
+&lt;/tr&gt;</string>
+	<key>name</key>
+	<string>tabular form row</string>
+	<key>scope</key>
+	<string>text.html.ruby</string>
+	<key>tabTrigger</key>
+	<string>trow</string>
+	<key>uuid</key>
+	<string>43CD9DF6-3FAA-43A0-97E2-FB4B1C7468F5</string>
+</dict>
+</plist>

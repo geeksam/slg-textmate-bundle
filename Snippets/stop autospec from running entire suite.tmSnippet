@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>it "should not run the rest of the autospec world" do
+  flunk "Ignore me -- I'm just here to keep the full spec suite from running."
+end</string>
+	<key>name</key>
+	<string>stop autospec from running entire suite</string>
+	<key>scope</key>
+	<string>source.ruby</string>
+	<key>tabTrigger</key>
+	<string>autospec</string>
+	<key>uuid</key>
+	<string>F777AB5D-1546-4B14-AF03-53FEB21DB47D</string>
+</dict>
+</plist>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>event :move_to_$1 do
+  transitions :to =&gt; :${1:next_state}, 
+              :from =&gt; [:${2:current_state}]${3:,
+              :guard =&gt; Proc.new {|${4:obj}| $4.${5:can_go?} \}}
+end</string>
+	<key>name</key>
+	<string>AASM: event</string>
+	<key>scope</key>
+	<string>source.ruby</string>
+	<key>tabTrigger</key>
+	<string>event</string>
+	<key>uuid</key>
+	<string>E038BBEE-F02B-481E-BFB4-3369DB1C2FF7</string>
+</dict>
+</plist>

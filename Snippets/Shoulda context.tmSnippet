@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>context "$1" do
+  ${2:setup do
+    $3
+  end
+  
+  }should$0
+end</string>
+	<key>name</key>
+	<string>Shoulda context</string>
+	<key>scope</key>
+	<string>source.ruby.rails</string>
+	<key>tabTrigger</key>
+	<string>con</string>
+	<key>uuid</key>
+	<string>6B05EFFA-8433-4E91-A292-10FCC7671171</string>
+</dict>
+</plist>

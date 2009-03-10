@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>validates_numericality_of :${1:value}${2:, :only_integer =&gt; true}${3:, $4}</string>
+	<key>name</key>
+	<string>validates_numericality_of</string>
+	<key>scope</key>
+	<string>source.ruby.rails</string>
+	<key>tabTrigger</key>
+	<string>vn</string>
+	<key>uuid</key>
+	<string>45A03EFC-FA00-4D3B-84A2-2BF9B1CD574D</string>
+</dict>
+</plist>

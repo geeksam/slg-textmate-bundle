@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env ruby -w
+
+text = ENV['TM_SELECTED_TEXT']
+
+lines = text.split(/\n/)
+starting_num = if (lines.first || '').strip == ''
+                 1
+               else
+                 starting_num = lines.first.to_i
+               end
+
+lines.length.times do |i|
+  puts starting_num + i
+end
+</string>
+	<key>fallbackInput</key>
+	<string>none</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>keyEquivalent</key>
+	<string>~@#</string>
+	<key>name</key>
+	<string>insert column of sequential numbers</string>
+	<key>output</key>
+	<string>replaceSelectedText</string>
+	<key>uuid</key>
+	<string>F9712CBE-6D31-4694-BAD8-985B33350010</string>
+</dict>
+</plist>

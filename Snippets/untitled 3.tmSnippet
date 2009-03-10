@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>%&gt;
+  $1
+&lt;%</string>
+	<key>name</key>
+	<string>jump out of ERB</string>
+	<key>scope</key>
+	<string>text.html.ruby</string>
+	<key>tabTrigger</key>
+	<string>%&gt;</string>
+	<key>uuid</key>
+	<string>630061C8-AAEC-4196-8C5D-41CDE284C472</string>
+</dict>
+</plist>

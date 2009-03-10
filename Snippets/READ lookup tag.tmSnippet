@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;:$1_editor&gt;
+  &lt;lookup_tag attr="$1"${2: lookup_name="$3"} /&gt;
+&lt;/:$1_editor&gt;</string>
+	<key>name</key>
+	<string>READ lookup tag</string>
+	<key>scope</key>
+	<string>text.html.ruby.dryml</string>
+	<key>tabTrigger</key>
+	<string>lu</string>
+	<key>uuid</key>
+	<string>0659F1C6-54B1-46BA-A1D8-0903EB77E726</string>
+</dict>
+</plist>
