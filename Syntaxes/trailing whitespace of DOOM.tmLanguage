@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>trailing whitespace of DOOM</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>invalid.trailing-whitespace</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>(\s+)$</string>
+			<key>name</key>
+			<string>source.invalid.trailing-whitespace</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source</string>
+	<key>uuid</key>
+	<string>EDE824C0-5D89-4CBC-9464-6A6632D9CE44</string>
+</dict>
+</plist>

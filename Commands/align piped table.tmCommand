@@ -11,7 +11,7 @@ text = ENV['TM_SELECTED_TEXT']
 initial_space = nil
 table_data = text.split(/\n/).map { |line|
   initial_space = line.split('|').detect {|e| e =~ /^ +$/}
-  line.split('|').map { |cell| cell }
+  line.gsub(/^[^\s]+\|\|/, '| |').split('|').map { |cell| cell }
 }
 
 max_lengths = table_data.transpose.map { |col| col.map { |cell| cell.strip.length } .max } .flatten

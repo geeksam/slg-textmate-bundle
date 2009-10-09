@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;% 
+# This is a hack to allow autogeneration of foreign keys from fixture names.  See spec/fixtures/_README.txt.
+class Foo &lt; ActiveRecord::Base
+  belongs_to :fixture_xref_${1:object}${2:, :class_name =&gt; '${3:${1/[[:alpha:]]+|(_)/(?1::\u$0)/g}}', :foreign_key =&gt; '${4:${1}_id}'}
+end
+%&gt;
+
+
+</string>
+	<key>name</key>
+	<string>Fixture XREF</string>
+	<key>scope</key>
+	<string>source.yaml</string>
+	<key>tabTrigger</key>
+	<string>fixture_xref</string>
+	<key>uuid</key>
+	<string>3418183B-B7FE-49ED-BA2F-37966560168E</string>
+</dict>
+</plist>

@@ -3,20 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>context "$1" do
-  ${2:setup do
-    $3
-  end
-  
-  }should$0
-end</string>
+	<string>def test_${1:1}_00_returns_${2:ok}_${3:678594}
+  assert response = @gateway.purchase($1_00, @test_card, @options)
+  assert_$2 response, '${3/_/:/}'
+end
+
+iats$0</string>
 	<key>name</key>
-	<string>Shoulda context</string>
+	<string>IATS testing snippet</string>
 	<key>scope</key>
 	<string>source.ruby.rails</string>
 	<key>tabTrigger</key>
-	<string>con</string>
+	<string>test_iats</string>
 	<key>uuid</key>
-	<string>6B05EFFA-8433-4E91-A292-10FCC7671171</string>
+	<string>B21C88FE-5EB1-4524-9BCD-9FC718D7A052</string>
 </dict>
 </plist>

@@ -3,16 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>%&gt;
-  
-&lt;% $0</string>
+	<string>----+----|----+----|----+----|----+----|----+----|----+----|----+----|----+----|----+----|----+----|----+----|----+----|</string>
 	<key>name</key>
-	<string>jump out of ERB</string>
-	<key>scope</key>
-	<string>text.html.ruby</string>
+	<string>ruler ----+----|</string>
 	<key>tabTrigger</key>
-	<string>%&gt;</string>
+	<string>ruler</string>
 	<key>uuid</key>
-	<string>630061C8-AAEC-4196-8C5D-41CDE284C472</string>
+	<string>D78C3E4E-A21F-4F8B-A8D0-F1F62448A752</string>
 </dict>
 </plist>

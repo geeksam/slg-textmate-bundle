@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>rb.erb</string>
+	</array>
+	<key>keyEquivalent</key>
+	<string>^~E</string>
+	<key>name</key>
+	<string>Ruby with ERB</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>begin</key>
+			<string>&lt;%+#</string>
+			<key>captures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.comment.erb</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>%&gt;</string>
+			<key>name</key>
+			<string>comment.block.erb</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>&lt;%+(?!&gt;)=?</string>
+			<key>captures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.section.embedded.ruby</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>-?%&gt;</string>
+			<key>name</key>
+			<string>source.ruby.embedded.ruby</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>captures</key>
+					<dict>
+						<key>1</key>
+						<dict>
+							<key>name</key>
+							<string>punctuation.definition.comment.ruby</string>
+						</dict>
+					</dict>
+					<key>match</key>
+					<string>(#).*?(?=-?%&gt;)</string>
+					<key>name</key>
+					<string>comment.line.number-sign.ruby</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>source.ruby</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.ruby.erb</string>
+	<key>uuid</key>
+	<string>EAB48F0C-EB21-4BDA-A787-39426AF6659B</string>
+</dict>
+</plist>

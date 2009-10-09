@@ -3,15 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>should_eventually "$1" do
-end</string>
+	<string>SQrbL</string>
 	<key>name</key>
-	<string>should_eventually</string>
-	<key>scope</key>
-	<string>source.ruby</string>
+	<string>sq ==&gt; SQrbL</string>
 	<key>tabTrigger</key>
-	<string>sh_</string>
+	<string>sq</string>
 	<key>uuid</key>
-	<string>25D1F4DE-2D67-4ABC-A87A-8DECC90B338E</string>
+	<string>EF611386-CB8D-4039-AB5B-F25B972C20BB</string>
 </dict>
 </plist>

@@ -3,16 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>should "$1" do
+	<string>&lt;&lt;-EOF
   $0
-end</string>
+EOF</string>
 	<key>name</key>
-	<string>Shoulda spec</string>
+	<string>&lt;&lt;-EOF</string>
 	<key>scope</key>
-	<string>source.ruby.rails</string>
+	<string>source.ruby</string>
 	<key>tabTrigger</key>
-	<string>should</string>
+	<string>eof</string>
 	<key>uuid</key>
-	<string>5AF2893C-F1E0-4C91-A7D8-CF7DE44F194D</string>
+	<string>3C105100-EC7F-4A20-99AF-0D6D33B771BC</string>
 </dict>
 </plist>

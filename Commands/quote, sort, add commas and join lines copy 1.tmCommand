@@ -8,29 +8,19 @@
 	<string>#!/usr/bin/env ruby -w
 
 text = ENV['TM_SELECTED_TEXT']
-
-lines = text.gsub(/\n\n/, "\n \n").split(/\n/)
-starting_num = if (lines.first || '').strip == ''
-                 1
-               else
-                 starting_num = lines.first.to_i
-               end
-
-lines.length.times do |i|
-  puts starting_num + i
-end
+puts text.strip.split(/\n/).map {|e| '"%s"' % e } .sort.join(', ')
 </string>
 	<key>fallbackInput</key>
 	<string>none</string>
 	<key>input</key>
 	<string>selection</string>
 	<key>keyEquivalent</key>
-	<string>~@#</string>
+	<string>~@,</string>
 	<key>name</key>
-	<string>insert column of sequential numbers</string>
+	<string>quote, sort, add commas and join lines copy 1</string>
 	<key>output</key>
 	<string>replaceSelectedText</string>
 	<key>uuid</key>
-	<string>F9712CBE-6D31-4694-BAD8-985B33350010</string>
+	<string>4C2D87A7-949B-4D14-B05A-98E11CEC29FE</string>
 </dict>
 </plist>
