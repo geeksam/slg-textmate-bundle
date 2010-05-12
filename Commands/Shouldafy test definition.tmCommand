@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env ruby -w
+
+text = ENV['TM_SELECTED_TEXT'] || ENV['TM_CURRENT_LINE'] || ''
+case
+when text =~ /(\s*)def test_([A-Za-z0-9_]+)\b/    # Traditional Test::Unit style
+  space      = $1
+  quote_char = "'"
+  test_name  = $2.gsub('_eh', '?').gsub('_', ' ')
+when text =~ /(\s*)test +(['"])([^\2]+)\2/        # DHH special
+  space      = $1
+  quote_char = $2
+  test_name  = $3
+  unless test_name =~ /(\#\{|')/
+    quote_char = "'"
+  end
+else
+  print text
+  exit
+end
+
+print "#{space}should #{quote_char}#{test_name.gsub(/^should /, '')}#{quote_char} do"
+</string>
+	<key>fallbackInput</key>
+	<string>line</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>keyEquivalent</key>
+	<string>^1</string>
+	<key>name</key>
+	<string>Shouldafy test definition</string>
+	<key>output</key>
+	<string>replaceSelectedText</string>
+	<key>scope</key>
+	<string>source.ruby.rails</string>
+	<key>uuid</key>
+	<string>94B4F4A3-C211-40F7-9D6C-C388B71A78F2</string>
+</dict>
+</plist>
