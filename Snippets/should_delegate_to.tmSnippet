@@ -3,14 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>def_delegator :${1:@${2:accessor}}, ${3:method_names}${4:, :${0:alias}}</string>
+	<string>should_delegate_to :$1, :$2${3:, :as =&gt; :$4}
+shdt$0</string>
 	<key>name</key>
-	<string>def_delegator</string>
+	<string>should_delegate_to</string>
 	<key>scope</key>
 	<string>source.ruby</string>
 	<key>tabTrigger</key>
-	<string>del</string>
+	<string>shdt</string>
 	<key>uuid</key>
-	<string>D9D6DD53-ABBF-433C-805C-DCE558E10E6F</string>
+	<string>8DAA2E95-02D3-4066-B136-976CD33D79D3</string>
 </dict>
 </plist>

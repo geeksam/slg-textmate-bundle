@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;%= ${0:${TM_SELECTED_TEXT}} %&gt;</string>
-	<key>keyEquivalent</key>
-	<string>^z</string>
+	<string>assert_values_within_epsilon ${1:expected}, ${0:actual}</string>
 	<key>name</key>
-	<string>ERB output tag</string>
+	<string>assert_values_within_epsilon</string>
 	<key>scope</key>
-	<string>text.html.ruby,source.yaml,text.html.textile</string>
+	<string>source.ruby.rails</string>
+	<key>tabTrigger</key>
+	<string>asvwe</string>
 	<key>uuid</key>
-	<string>B03F6EC0-BC3A-4B45-B462-2622D3DD8C79</string>
+	<string>F4E78A1F-0863-421D-AB58-5F5D445266DE</string>
 </dict>
 </plist>

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>def_delegators :${1:@${2:accessor}}, ${3:method_names}</string>
+	<string>def_delegators :${1:@${2:accessor}}, :${3:method_names}</string>
 	<key>name</key>
 	<string>def_delegators</string>
 	<key>scope</key>

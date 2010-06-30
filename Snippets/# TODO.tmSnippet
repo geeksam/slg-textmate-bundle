@@ -3,16 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>should 'translate #$1 to { $2.$3 }' do
-  $0
-end</string>
+	<string># TODO (${1:SLG}): $0</string>
 	<key>name</key>
-	<string>should 'translate ...'</string>
+	<string># TODO</string>
 	<key>scope</key>
-	<string>source.ruby</string>
+	<string>source</string>
 	<key>tabTrigger</key>
-	<string>shtr</string>
+	<string>todo</string>
 	<key>uuid</key>
-	<string>A98AFFCD-8574-476B-97EC-EFE7F2FBC0A1</string>
+	<string>CEBE42D8-6B12-499B-887E-8CB43179E140</string>
 </dict>
 </plist>

@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>def_delegator :${1:@${2:accessor}}, ${3:method_names}${4:, :${0:alias}}</string>
+	<string>assert_array_of_hashes_with_values_within_epsilon ${1:expected}, ${0:actual}</string>
 	<key>name</key>
-	<string>def_delegator</string>
+	<string>assert_array_of_hashes_with_values_within_epsilon</string>
 	<key>scope</key>
-	<string>source.ruby</string>
+	<string>source.ruby.rails</string>
 	<key>tabTrigger</key>
-	<string>del</string>
+	<string>aswtf</string>
 	<key>uuid</key>
-	<string>D9D6DD53-ABBF-433C-805C-DCE558E10E6F</string>
+	<string>101A8FF1-FF1B-4169-8C50-D99378B14DF2</string>
 </dict>
 </plist>
