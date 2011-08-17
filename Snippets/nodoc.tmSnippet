@@ -3,16 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>named_scope :${1:finder_name},
-            :conditions =&gt; [$2]
-#</string>
+	<string># :nodoc:</string>
 	<key>name</key>
-	<string>named_scope (no args)</string>
+	<string>nodoc</string>
 	<key>scope</key>
-	<string>source.ruby.rails</string>
+	<string>source.ruby</string>
 	<key>tabTrigger</key>
-	<string>ns</string>
+	<string>nodoc</string>
 	<key>uuid</key>
-	<string>BA169E47-E405-46F3-9E22-075184FF3644</string>
+	<string>A1D9F6A0-C9FD-4AF6-9BB5-CBD5AF59BE30</string>
 </dict>
 </plist>

@@ -6,7 +6,8 @@
 	<string>named_scope :${1:finder_name},
             lambda { |${2:*args}|
               { :conditions =&gt; [$3] }
-            }</string>
+            }
+#</string>
 	<key>name</key>
 	<string>named_scope (args)</string>
 	<key>scope</key>

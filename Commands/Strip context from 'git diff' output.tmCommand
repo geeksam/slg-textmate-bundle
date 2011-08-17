@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env ruby -w
+
+lines = File.open(ENV['TM_FILEPATH']) { |f| f.readlines }
+
+lines.each do |line|
+  puts line if line =~ /^[-+]/
+end
+</string>
+	<key>input</key>
+	<string>document</string>
+	<key>keyEquivalent</key>
+	<string>^!</string>
+	<key>name</key>
+	<string>Strip context from 'git diff' output</string>
+	<key>output</key>
+	<string>openAsNewDocument</string>
+	<key>scope</key>
+	<string>source.diff</string>
+	<key>uuid</key>
+	<string>3F125704-DDC7-416A-BA8E-91078EE5C08B</string>
+</dict>
+</plist>

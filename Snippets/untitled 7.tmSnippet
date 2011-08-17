@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>params[:${0:id}]</string>
+	<key>keyEquivalent</key>
+	<string>^p</string>
+	<key>name</key>
+	<string>params (for sinatra)</string>
+	<key>scope</key>
+	<string>source.ruby.sinatra</string>
+	<key>uuid</key>
+	<string>55788730-E55E-4AE2-AAAA-8F36A98EAB0A</string>
+</dict>
+</plist>

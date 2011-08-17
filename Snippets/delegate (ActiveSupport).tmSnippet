@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>delegate :${1:foo}${2:, :bar}, :to =&gt; :${3:method}${4:, :prefix =&gt; :${5:$3}}${6:, :allow_nil =&gt; true}
+$0</string>
+	<key>name</key>
+	<string>delegate (ActiveSupport)</string>
+	<key>scope</key>
+	<string>source.ruby, source.ruby.rails</string>
+	<key>tabTrigger</key>
+	<string>del</string>
+	<key>uuid</key>
+	<string>09057AC4-9357-4831-B921-E6DE27387256</string>
+</dict>
+</plist>

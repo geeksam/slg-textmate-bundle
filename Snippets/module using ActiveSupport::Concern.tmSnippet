@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>module ${1:${TM_FILENAME/(?:\A|_)([A-Za-z0-9]+)(?:\.rb)?/(?2::\u$1)/g}}
+  extend ActiveSupport::Concern
+  
+  included do
+    $2
+  end
+  
+  module ClassMethods
+    $3
+  end
+
+  module InstanceMethods
+    $0
+  end
+end
+</string>
+	<key>name</key>
+	<string>module using ActiveSupport::Concern</string>
+	<key>scope</key>
+	<string>source.ruby</string>
+	<key>tabTrigger</key>
+	<string>mod</string>
+	<key>uuid</key>
+	<string>FECC0B4F-FDCD-499A-A704-50FBC6236CF1</string>
+</dict>
+</plist>
