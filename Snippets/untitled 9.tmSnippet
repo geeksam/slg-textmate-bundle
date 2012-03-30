@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>def_delegators :${1:@${2:accessor}}, :${3:method_names}</string>
+	<string>&lt;img src="$1"${2: class="$3"} /&gt;$0</string>
 	<key>name</key>
-	<string>def_delegators</string>
+	<string>&lt;img&gt; tag</string>
 	<key>scope</key>
-	<string>source.ruby, source.ruby.rails</string>
+	<string>text.html</string>
 	<key>tabTrigger</key>
-	<string>del</string>
+	<string>img</string>
 	<key>uuid</key>
-	<string>D109794E-2727-4F71-9C9B-C9AB96E1AADE</string>
+	<string>09897CC5-6E77-453D-A386-F0483A097AF1</string>
 </dict>
 </plist>

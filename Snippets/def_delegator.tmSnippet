@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>def_delegator</string>
 	<key>scope</key>
-	<string>source.ruby</string>
+	<string>source.ruby, source.ruby.rails</string>
 	<key>tabTrigger</key>
 	<string>del</string>
 	<key>uuid</key>

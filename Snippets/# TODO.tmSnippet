@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string># TODO (${1:SLG}): $0</string>
+	<string># TODO: $0</string>
 	<key>name</key>
 	<string># TODO</string>
 	<key>scope</key>

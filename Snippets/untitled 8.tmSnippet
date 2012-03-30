@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>def_delegators :${1:@${2:accessor}}, :${3:method_names}</string>
+	<string>HashWithIndifferentAccess</string>
 	<key>name</key>
-	<string>def_delegators</string>
+	<string>HashWithIndifferentAccess</string>
 	<key>scope</key>
-	<string>source.ruby, source.ruby.rails</string>
+	<string>source.ruby.rails</string>
 	<key>tabTrigger</key>
-	<string>del</string>
+	<string>hwia</string>
 	<key>uuid</key>
-	<string>D109794E-2727-4F71-9C9B-C9AB96E1AADE</string>
+	<string>E0009373-3DF6-4E8B-8E8D-56A1AD6065E9</string>
 </dict>
 </plist>

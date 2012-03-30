@@ -16,7 +16,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>(\s+)$</string>
+			<string>\S(\s+)$</string>
 			<key>name</key>
 			<string>source.invalid.trailing-whitespace</string>
 		</dict>
