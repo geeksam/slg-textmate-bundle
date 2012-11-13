@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>gem '$1', '~&gt; $0'</string>
+	<key>name</key>
+	<string>gem (for Bundler)</string>
+	<key>scope</key>
+	<string>source.ruby</string>
+	<key>tabTrigger</key>
+	<string>gem</string>
+	<key>uuid</key>
+	<string>88BD85D6-74AB-4757-9615-13E8BA055B1B</string>
+</dict>
+</plist>
