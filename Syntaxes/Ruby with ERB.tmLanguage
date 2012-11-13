@@ -65,6 +65,10 @@
 				</dict>
 			</array>
 		</dict>
+		<dict>
+			<key>include</key>
+			<string>source</string>
+		</dict>
 	</array>
 	<key>scopeName</key>
 	<string>source.ruby.erb</string>
